@@ -1,3 +1,11 @@
+@import "compass/css3";
+
+/* Font / Universal Properties */
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+* {
+  user-select: none;
+  font: 20px 'Agency FB', sans-serif;
+}
 body {
   background-color: black;
   height: 100vh;
@@ -11,9 +19,27 @@ body > div {
 
 .title {
   font-size: 30px;
-  font-family: 'Agency FB Normal', 'Agency FB';
   font-weight: 400;
 
+}
+
+#date_time {
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+}
+
+#time {
+  margin-left: 110px;
+  position: fixed;
+  background: rgba(0,0,0,0.8);
+  line-height: 0;
+}
+
+#date {
+  position: fixed;
+  margin-top: 20px;
+  background: rgba(0,0,0,0.8);
 }
 
 .progress {
@@ -57,11 +83,15 @@ body > div {
 .tweet-grid > span:nth-child(2) {
   border-top: 10px solid #6ECCDD;
 }
-
+#02FEFF
 .tweet > div {
   opacity: 0.7;
 }
 
 .tweet-grid > span:nth-child(2) > div {
   opacity: 1;
+}
+
+text {
+  fill: #02FEFF;
 }
