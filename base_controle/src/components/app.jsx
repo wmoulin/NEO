@@ -2,6 +2,7 @@ import React from 'react'
 import { Clock } from "./clock";
 import { ProcessBar } from "./process-bar";
 import { Tweets } from "./tweets";
+import { Neo } from "./neo";
 
 export class App extends React.Component {
 
@@ -22,7 +23,7 @@ export class App extends React.Component {
             <ProcessBar label="Memory" percent={50}/>
           </div>
         </div>
-        <div></div>
+        <div><Neo/></div>
         <Tweets/>
       </div>                    
     </div>);
